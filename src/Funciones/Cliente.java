@@ -16,9 +16,13 @@ import Modelo.MHistorialVenta;
  * @author cris
  */
 import Modelo.MDatosPersonales;
+
 import java.beans.Statement;
+
 import java.util.ArrayList;
+
 public class Cliente {
+    
    public void CrearClienteDesdeUsuario() {
 
     try {
