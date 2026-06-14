@@ -1,1 +1,0 @@
-No soporto la las tareas
