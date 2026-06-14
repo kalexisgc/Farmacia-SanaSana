@@ -20,10 +20,12 @@ public class Proveedor {
          try {
 
         Connection con =
+                
                 SQLConexion.conectar();
 
         String sql =
             "INSERT INTO PCompra.Proveedor " +
+                
             "(Nombres, Telefono, Ruc, Correo, Direccion, Apellidos) " +
             "VALUES (?, ?, ?, ?, ?, ?)";
 
